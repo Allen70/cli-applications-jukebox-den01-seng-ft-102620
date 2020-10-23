@@ -25,6 +25,7 @@ def play (song)
   
   if input == "#{count}" || input == "#{key}"
     puts "Playing #{key}"
+    return
   elsif key == "Amos Lee - Keep It Loose, Keep It Tight"
     puts "Invalid input, please try again"
   end
