@@ -20,11 +20,11 @@ def play (song)
   puts "Please enter a song name or number:"
   count = 1
   input = gets.strip
-  song_num_array = []
+
   song.each{|key|
-  song_num_array.push(count)
+
  
-  if input == song_num_array[count]
+  if input == count
     puts "Playing #{key}"
     binding.pry
   end
