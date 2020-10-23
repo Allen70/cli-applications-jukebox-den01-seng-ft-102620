@@ -22,6 +22,6 @@ def play (song)
  song.each{|key|
  puts "#{count}. #{key}"
  count+=1
- binding.pry
+
  }
 end
