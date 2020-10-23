@@ -24,7 +24,7 @@ def play (song)
   song.each{|key|
 
  
-  if input == "#{count}"
+  if input == "#{count}" || input == "#{key}"
     puts "Playing #{key}"
     
   end
