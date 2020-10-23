@@ -9,19 +9,19 @@ def help
   puts "- exit : exits this program"
 end
 
-def list (song)
+def list (songs)
 count = 1
- song.each{|key|
+ songs.each{|key|
  puts "#{count}. #{key}"
  count+=1
  }
 end
 
-def play (song)
+def play (songs)
   puts "Please enter a song name or number:"
   count = 1
   input = gets.strip
-  song.each{|key|
+  songs.each{|key|
   if input == "#{count}" || input == "#{key}"
     puts "Playing #{key}"
     return
