@@ -39,10 +39,10 @@ end
 def run (songs)
   puts "Please enter a command:"
   input = gets.strip
-  if input = "help"
+  if input == "help"
     help
     binding.pry
-  elsif input = 'exit'
+  elsif input == 'exit'
     exit_jukebox
     binding.pry
   end
