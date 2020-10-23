@@ -43,7 +43,7 @@ def run (songs)
     exit_jukebox
   end
 
-  puts ""
+  puts "I accept the following commands:"
 
   
 end
