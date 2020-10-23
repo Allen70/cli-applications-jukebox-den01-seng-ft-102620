@@ -33,10 +33,7 @@ def play (song)
 end
 
 def exit_jukebox
-  
- 
     puts "Goodbye"
-    
 end
 
 def run (songs)
@@ -45,7 +42,5 @@ def run (songs)
   if input = 'exit'
     exit_jukebox
   end
-  if input = 'help'
-    help
-  end
+  
 end
