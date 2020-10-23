@@ -26,8 +26,8 @@ def play (song)
  
   if input == "#{count}" || input == "#{key}"
     puts "Playing #{key}"
-    
   end
+  binding.pry
 
   count += 1
   }
