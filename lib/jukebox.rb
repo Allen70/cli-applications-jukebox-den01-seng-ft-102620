@@ -1,4 +1,5 @@
 require 'pry'
+def run(songs)
 def help 
   
   puts "I accept the following commands:"
@@ -35,5 +36,7 @@ def exit_jukebox
   
  
     puts "Goodbye"
+    
+end
 
 end
