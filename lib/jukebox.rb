@@ -24,5 +24,6 @@ def play (song)
   song.each{|key}|
 
   binding.pry
+  
   }
 end
