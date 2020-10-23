@@ -29,7 +29,7 @@ def play (song)
   elsif key == "Amos Lee - Keep It Loose, Keep It Tight"
     puts "Invalid input, please try again"
   end
-  binding.pry
+
   count += 1
   }
   
