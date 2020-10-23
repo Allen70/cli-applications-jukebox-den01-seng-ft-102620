@@ -18,7 +18,6 @@ end
   
 def play (song)
   
-  puts "Please enter a song name or number:"
   
   count = 1
   input = gets.strip
@@ -29,7 +28,8 @@ def play (song)
   elsif key == "Amos Lee - Keep It Loose, Keep It Tight"
     puts "Invalid input, please try again"
   end
-
+puts "Please enter a song name or number:"
+  
 
   count += 1
   }
