@@ -33,9 +33,7 @@ end
 
 def exit_jukebox
   
-  exit_check = gets.strip
-  
-  if exit_check == "exit"
+ 
     puts "Goodbye"
-  end
+
 end
