@@ -17,8 +17,16 @@ count = 1
 end
   
 def play (song)
+  list= []
+  song.each {|key|
+  
+  
+  
+  
+  }
   
   puts "Please enter a song name or number."
   input = gets.strip
+  
   
 end
