@@ -8,7 +8,7 @@ def help
   puts "- exit : exits this program"
 end
 
-def list (songs)
+def list (song)
 count = 1
  song.each{|key|
  puts "#{count}. #{key}"
