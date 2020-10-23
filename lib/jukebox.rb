@@ -17,15 +17,15 @@ count = 1
 end
   
 def play (song)
-  
+  count = 0
   
   puts "Please enter a song name or number."
   input = gets.strip
   song_num_array = []
   song.each{|key|
-  
-  if inputto_i == 
+  song_num_array.shift(count)
+ 
   binding.pry
-  
+  count += 1
   }
 end
