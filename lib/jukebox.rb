@@ -23,7 +23,7 @@ def play (song)
   input = gets.strip
   song_num_array = []
   song.each{|key|
-  song_num_array.shift(count)
+  song_num_array.unshift(count)
  
   binding.pry
   count += 1
