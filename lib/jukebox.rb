@@ -18,7 +18,7 @@ def play (song)
   
   puts "Please enter a song name or number."
   input = gets.strip
-  count = 0
+  count = 1
  song.each{|key|
  puts "#{count}. #{key}"
  count+=1
