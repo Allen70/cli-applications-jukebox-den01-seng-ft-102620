@@ -25,6 +25,10 @@ def play (song)
   song.each{|key|
   song_num_array.push(count)
  
+  if input == song_num_array[count]
+    puts "Playing #{key}"
+    
+  end
   binding.pry
   count += 1
   }
