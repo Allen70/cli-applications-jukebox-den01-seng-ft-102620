@@ -41,9 +41,9 @@ def run (songs)
   input = gets.strip
   if input = 'exit'
     exit_jukebox
+  else
+    help
   end
-
-  puts "I accept the following commands:"
 
   
 end
