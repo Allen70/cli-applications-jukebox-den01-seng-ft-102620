@@ -42,8 +42,6 @@ def run (songs)
   if input = 'exit'
     exit_jukebox
   end
-  puts I accept the following commands:
-  
 
   
 
