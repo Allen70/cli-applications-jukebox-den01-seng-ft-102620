@@ -26,7 +26,7 @@ def play (song)
  
   if input == song_num_array[count]
     puts "Playing #{key}"
-    
+    binding.pry
   end
 
   count += 1
