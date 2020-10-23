@@ -46,6 +46,6 @@ def run (songs)
     exit_jukebox
     binding.pry
   end
-
+binding.pry
   
 end
