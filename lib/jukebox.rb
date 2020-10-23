@@ -28,7 +28,7 @@ def play (song)
     puts "Playing #{key}"
     binding.pry
   end
-
+binding.pry
   count += 1
   }
 end
