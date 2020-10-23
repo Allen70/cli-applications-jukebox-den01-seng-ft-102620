@@ -17,7 +17,6 @@ count = 1
 end
   
 def play (song)
-  puts "Please enter a song name or number:"
   
   
   count = 1
