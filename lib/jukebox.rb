@@ -18,7 +18,7 @@ end
   
 def play (song)
   
-  
+  puts "Please enter a song name or number:"
   count = 1
   input = gets.strip
   song.each{|key|
@@ -27,7 +27,7 @@ def play (song)
     puts "Playing #{key}"
   elsif key == "Amos Lee - Keep It Loose, Keep It Tight"
     puts "Invalid input, please try again"
-    puts "Please enter a song name or number:"
+    
   end
 
 
