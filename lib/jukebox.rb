@@ -9,18 +9,16 @@ def help
 end
 
 def list (songs)
-songs.each{|songs|
-
-}
+count = 1
+ song.each{|key|
+ puts "#{count}. #{key}"
+ count+=1
+ }
 end
   
 def play (song)
   
   puts "Please enter a song name or number."
   input = gets.strip
-  count = 1
- song.each{|key|
- puts "#{count}. #{key}"
- count+=1
- }
+  
 end
