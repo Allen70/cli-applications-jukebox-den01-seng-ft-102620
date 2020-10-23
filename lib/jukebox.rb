@@ -23,6 +23,6 @@ def play (song)
   input = gets.strip
   
 
-  
+  binding.pry
   
 end
