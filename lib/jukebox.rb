@@ -41,7 +41,9 @@ def run (songs)
   input = gets.strip
   if input = 'exit'
     exit_jukebox
+  else 
+    help
   end
-  binding.pry
+
   
 end
